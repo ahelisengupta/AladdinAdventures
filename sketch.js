@@ -207,7 +207,7 @@ function playLevelOne(){
     carpet2.collide(invisibleGround);
     aladdin2.collide(carpet2);
 
-  if(score===200){
+  if(score===1000){
     clear();
     rockGroup.destroyEach();
     rock2Group.destroyEach();
